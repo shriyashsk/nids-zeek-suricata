@@ -72,3 +72,15 @@ Once Kibana is running, create an index pattern (nids-*) and explore:
 	•	Real-time alerts from Suricata and Zeek
 	•	Protocol metadata and flow data
 	•	Dashboards for network activity and intrusion attempts
+
+### 🤝 Collaborative Architecture & My Contributions
+*This Network Intrusion Detection System was developed as a collaborative group project to simulate a real-world SOC deployment.*
+
+**My Specific Engineering Contributions (Threat Visualization & SIEM):**
+* **Dashboard Engineering:** Designed and engineered comprehensive Kibana dashboards to translate raw Zeek and Suricata network telemetry into actionable threat intelligence.
+* **Alert Triage & Visibility:** Created real-time visualizations mapping network anomalies, malicious IP connections, and signature-based IDS triggers to accelerate the incident triage process.
+* **Log Correlation:** Streamlined the simulated incident response workflow by centralizing data, allowing defenders to visually correlate events and spot lateral movement or exfiltration attempts rapidly.
+
+**Project Team:**
+* **Shriyash Kulkarni** - Threat Visualization & SIEM Engineering
+* **Soham Dhoot** - IDS Rule Engineering
